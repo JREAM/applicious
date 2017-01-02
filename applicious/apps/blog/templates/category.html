@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %}Category{% endblock %}
+
+{% block content %}
+    <h2>{{ category.title }}</h2>
+
+    <div class="row">
+        {% for posts in post %}
+            {% url 'post.slug' as slug %}
+            <a href="{% url slug %}">{{ post.title }}</a><br />
+        {% endfor %}
+    </div>
+{% endblock %}

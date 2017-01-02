@@ -1,0 +1,42 @@
+{
+  "name": "applicious",
+  "version": "1.0.0",
+  "description": "applicious",
+  "main": "Gulpfile.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:codezeus/applicious.git"
+  },
+  "keywords": [
+    "django",
+    "python",
+    "gulp",
+    "sass"
+  ],
+  "dependencies": {
+    "lodash": "^4.13.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.12.8",
+    "browserify": "^13.0.1",
+    "chalk": "^1.1.3",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-cached": "^1.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-sass": "^2.3.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.3",
+    "gulp-util": "^3.0.7",
+    "pretty-hrtime": "^1.0.2",
+    "require-dir": "^0.3.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0",
+    "yargs": "^4.7.1"
+  },
+  "author": "CodeZeus",
+  "license": "MIT"
+}

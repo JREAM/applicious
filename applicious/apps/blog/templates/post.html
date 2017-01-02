@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %}Single Post{% endblock %}
+
+{% block content %}
+    <div class="row">
+        {{ post.title }}
+        {{ post.published_on }}
+        {{ post.category }}
+        {{ post.created_by }}
+        {{ post.body }}
+        {% lorem  %}
+    </div>
+{% endblock %}

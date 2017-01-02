@@ -1,0 +1,6 @@
+-r base.txt
+
+# Services
+django-supervisor==0.3.4
+supervisor==3.3.0
+gunicorn==19.4.5

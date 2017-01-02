@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block title %}Tag List{% endblock %}
+
+{% block content %}
+    <div class="row">
+        {% for tag in tags %}
+            {% url 'tag.slug' as slug %}
+            <a href="{% url slug %}">{{ tag.title }}</a><br />
+        {% endfor %}
+    </div>
+{% endblock %}
